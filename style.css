@@ -1,0 +1,90 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      
+    }
+    #viewport {
+      width: 100%;
+      height: 100%;
+      cursor: grab;
+      overflow: hidden;
+      position: relative;
+    }
+    #map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform-origin: 0 0;
+      
+    }
+    .galaxy-wrapper {
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: auto;
+      transition: transform 0.2s ease;
+      width: 240px;
+      height: 240px;
+    }
+    .galaxy-wrapper:hover {
+      transform: scale(0.2) !important;
+      z-index: 999;
+      .galaxy-name {
+        border: 1px solid yellow;
+      }
+    }
+    
+    .galaxy-name {
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 14px;
+      font-family: sans-serif;
+      display: none;
+      white-space: nowrap;
+    }
+    
+    .galaxy-wrapper:hover .galaxy-name,
+    .galaxy-name.always-visible {
+      display: block;
+    }
+    .always-visible{
+      position: absolute;
+      transform: scale(calc(20 / var(--zoom)));
+      /* transform: scale(5) !important; */
+      color: gold;
+      text-shadow: 1px 1px 0px black;
+    }
+    img.galaxy {
+      display: block;
+      pointer-events: none;
+      width: 80px;
+      height: 80px;
+      margin-left: 80px;
+      margin-top: 80px;
+    }
+    #colorPickerPanel, #fileControls {
+      position: fixed;
+      top: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      border-radius: 8px;
+      color: white;
+      z-index: 1000;
+    }
+    #colorPickerPanel { left: 10px; }
+    #fileControls { right: 10px; }
+    #colorPicker {
+      background: transparent;
+    }
+    #newMapBtn {
+      margin-top: 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="149.40088mm"
+   height="161.50633mm"
+   viewBox="0 0 149.40088 161.50633"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Galaxy_test.svg"
+   inkscape:export-filename="..\..\..\..\Users\vlaso\Desktop\Cluster C58\dnd\galaxies\white.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.73139029"
+     inkscape:cx="595.44132"
+     inkscape:cy="408.12683"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-27.128022,-52.779608)">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffff0b;stroke-width:12.365;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       sodipodi:cx="101.29111"
+       sodipodi:cy="133.12546"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="74.308517"
+       sodipodi:argument="-20.357023"
+       sodipodi:t0="0"
+       d="m 101.29111,133.12546 c 0.23579,-3.71824 5.12844,-1.51661 6.17996,0.39189 2.84955,5.17194 -2.07901,10.74757 -6.96375,11.96803 -8.737656,2.18313 -16.540932,-5.25885 -17.756102,-13.53561 -1.783311,-12.14648 8.457963,-22.43997 20.107472,-23.54416 15.52696,-1.47172 28.38008,11.66079 29.33223,26.67932 1.19819,18.8993 -14.86463,34.34064 -33.251183,35.12031 -22.268581,0.94428 -40.312873,-18.06889 -40.908372,-39.82305 -0.701774,-25.63652 21.27337,-46.29242 46.394905,-46.696437 29.0038,-0.466454 52.27685,24.478017 52.48451,52.966757 0.23595,32.37073 -27.68278,58.26471 -59.538623,58.27258 -35.737442,0.009 -64.25504,-30.88763 -64.060644,-66.11048 C 33.527329,89.710574 67.404066,58.567367 105.99385,58.9659"
+       inkscape:export-filename="..\..\..\..\Users\vlaso\Desktop\Cluster C58\dnd\galaxies\yellow.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#afba00;stroke-width:14.165;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path2"
+       sodipodi:cx="101.29111"
+       sodipodi:cy="133.12546"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="74.308517"
+       sodipodi:argument="-20.357023"
+       sodipodi:t0="0"
+       d="m 101.29111,133.12546 c 0.23579,-3.71824 5.12844,-1.51661 6.17996,0.39189 2.84955,5.17194 -2.07901,10.74757 -6.96375,11.96803 -8.737656,2.18313 -16.540932,-5.25885 -17.756102,-13.53561 -1.783311,-12.14648 8.457963,-22.43997 20.107472,-23.54416 15.52696,-1.47172 28.38008,11.66079 29.33223,26.67932 1.19819,18.8993 -14.86463,34.34064 -33.251183,35.12031 -22.268581,0.94428 -40.312873,-18.06889 -40.908372,-39.82305 -0.701774,-25.63652 21.27337,-46.29242 46.394905,-46.696437 29.0038,-0.466454 52.27685,24.478017 52.48451,52.966757 0.23595,32.37073 -27.68278,58.26471 -59.538623,58.27258 -35.737442,0.009 -64.25504,-30.88763 -64.060644,-66.11048 C 33.527329,89.710574 67.404066,58.567367 105.99385,58.9659"
+       transform="rotate(180,101.37846,133.08277)" />
+    <circle
+       style="fill:#ffe680;fill-opacity:1;stroke:#cea600;stroke-width:11.3501;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path3"
+       cx="102.01462"
+       cy="133.12546"
+       r="20.580416" />
+  </g>
+</svg>
