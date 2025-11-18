@@ -12,6 +12,7 @@
 <body>
   <div id="colorPickerPanel">
     <h1 class="p-1">Galaxy Cluster Map</h1>
+    <button type="button" class="btn btn-secondary" onclick="showPopup()">Info</button>
   </div>
   <div id="fileControls">
     <div class="p-1 flex-warp" role="group" aria-label="Map Selection">
@@ -29,6 +30,85 @@
       <div id="galaxy-container"></div>
     </div>
   </div>
+  <!-- info over all goverments -->
+  <div class="popup">
+    <div class="d-flex flex-column p-3 align-items-center container">
+      <div class="d-flex flex-column">
+        <p class="h1 text-light">Alliances</p>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag5.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div>
+            <img class="p-1 rounded-3" src="flags/flag1.webp" alt="Cluster Flag" style="width:100px;height:auto;">
+            <img class="p-1 rounded-3" src="flags/flag3.webp" alt="Cluster Flag" style="width:100px;height:auto;">
+            <img class="p-1 rounded-3" src="flags/flag4.webp" alt="Cluster Flag" style="width:100px;height:auto;">
+          </div>
+          <p class="h3 text-light p-3"> Anti-Imperial Axis</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag2.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div>
+            <img class="p-1 rounded-3" src="flags/flag7.webp" alt="Cluster Flag" style="width:100px;height:auto;">
+            <img class="p-1 rounded-3" src="flags/flag10.webp" alt="Cluster Flag" style="width:100px;height:auto;">
+            <img class="p-1 rounded-3" src="flags/flag2.webp" alt="Cluster Flag" style="width:100px;height:auto;">
+          </div>
+          <p class="h3 text-light p-3"> Empire of the Christofelites</p>
+        </div>
+        <p class="h1 text-light">Governments</p>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag8.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(124, 124, 124, 0.8)"></div>
+          <p class="h3 text-light p-3"> Ortarian Hegemony (collapsed 3153)</p>
+        </div>
+        
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag6.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(255, 0, 0, 0.51);"></div>
+          <p class="h3 text-light p-3"> Council of Fractal Regions (СFR)</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag1.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(0, 0, 255, 0.51)"></div>
+          <p class="h3 text-light p-3"> Confederation of Free Sectors (СFS)</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag3.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(0, 128, 255, 0.49)"></div>
+          <p class="h3 text-light p-3"> Free Waters of Lemaria</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag4.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(65, 0, 130, 0.5)"></div>
+          <p class="h3 text-light p-3"> Spectral Democratic Republic</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag2.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(0, 154, 160, 0.51);"></div>
+          <p class="h3 text-light p-3"> Empire of the Christofelites</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag10.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(0, 128, 64, 0.51)"></div>
+          <p class="h3 text-light p-3"> Christophelite Ortarian Empire</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag7.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(119, 187, 187, 0.51)"></div>
+          <p class="h3 text-light p-3"> Silicon Dominion</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag9.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(210, 105, 0, 0.49)"></div>
+          <p class="h3 text-light p-3"> Korphian Clan Union</p>
+        </div>
+        <div class="d-flex align-items-center p-3">
+          <img class="p-3 rounded-3" src="flags/flag0.webp" alt="Cluster Flag" style="width:200px;height:auto;">
+          <div class="color-box p-3" style="background-color: rgba(96, 96, 96, 0.51)"></div>
+          <p class="h3 text-light p-3"> Ortarian Provisional Government</p>
+        </div>
+      </div>
+      <div><button class="btn btn-danger" onclick="closePopup()">Close</button></div>
+    </div>
+  </div>
 <script src="scripts/config.js"></script>
 <script src="scripts/generation.js"></script>
 <script src="scripts/render.js"></script>
@@ -36,5 +116,6 @@
 <script src="scripts/data.js"> </script>
 <script src="scripts/viewport.js"></script>
 <script src="scripts/main.js"></script>
+<script src="scripts/popup.js"></script>
 </body>
 </html>
