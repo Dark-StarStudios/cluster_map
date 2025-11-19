@@ -89,10 +89,10 @@ html, body {
       cursor: pointer;
     }
 
-    #viewport,
+    /* #viewport,
     #map {
       z-index: 0;
-    }
+    } */
 
     .popup {
       display: none;
